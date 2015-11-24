@@ -788,9 +788,8 @@ webpackJsonp([0,1],[
 	'use strict';
 	
 	var shallowEqual = __webpack_require__(12);
-	var deprecate = __webpack_require__(6);
 	
-	module.exports = deprecate(shallowEqual, '`rcUtil.shallowEqual()` is deprecated, use `shallowEqual()` by `require(\'shallowequal\')` instead');
+	module.exports = shallowEqual;
 
 /***/ },
 /* 12 */
